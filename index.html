@@ -1,278 +1,117 @@
-<!doctype html>
-<html>
-<head>
-    <title>UNUM Example</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 3, from LayoutIt!</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/buttons.css" rel="stylesheet">
-    <link href="css/datepicker.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/elements.css" rel="stylesheet">
-    <link href="css/mobile.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]><link href="css/ie.css" rel="stylesheet"><![endif]-->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
-    <link href="img/favicon.png" rel="apple-touch-icon">
-    <link href="img/favicon.png" rel="apple-touch-icon-precomposed">
-    <link href="img/favicon.png" rel="apple-touch-icon" sizes="144x144">
-    <link href="img/favicon.png" rel="apple-touch-icon" sizes="114x114">
-</head>
-<body>
+    <link href="css/style.css" rel="stylesheet">
 
-    <div class="container">
-        <div class="row">
-            <div class="container-content col-md-8">
-                
-                <div class="row col-md-12" align="center">
+  </head>
+  <body>
 
-                    <div class="card-entire" draggable="true">
-                        <a href="#">
-                            <div class="card-box">
-                                <div class="card-title">
-                                    <div class="card-title-text">Card 1</div>
-                                </div>
-                                <div class="card-description">
-                                    <div class="card-description-text">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                </div>
-                                <div class="card-img-div">
-                                    <img data-toggle="tooltip" title="Tin Man" src="img/tin.jpg" class="card-img">
-                                    <img data-toggle="tooltip" title="Dorothy" src="img/dorothy.jpg" class="card-img">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button> <a class="navbar-brand" href="#">Brand</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Link</a>
+						</li>
+						<li>
+							<a href="#">Link</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Action</a>
+								</li>
+								<li>
+									<a href="#">Another action</a>
+								</li>
+								<li>
+									<a href="#">Something else here</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">One more separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control">
+						</div> 
+						<button type="submit" class="btn btn-default">
+							Submit
+						</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">Link</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Action</a>
+								</li>
+								<li>
+									<a href="#">Another action</a>
+								</li>
+								<li>
+									<a href="#">Something else here</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+			</nav>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2">
+			<div class="side-nav"></div>
+		</div>
+		<div class="col-md-4">
+			<div class="team-nav"></div>
+		</div>
+		<div class="col-md-6">
+			<div class="pitch"></div>
+		</div>
+	</div>
+</div>
 
-                    <div class="card-entire" draggable="true">
-                        <a href="#">
-                            <div class="card-box">
-                                <div class="card-title">
-                                    <div class="card-title-text">Card 2</div>
-                                </div>
-                                <div class="card-description">
-                                    <div class="card-description-text">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                </div>
-                                <div class="card-img-div">
-                                    <img data-toggle="tooltip" title="Tin Man" src="img/tin.jpg" class="card-img">
-                                    <img data-toggle="tooltip" title="Dorothy" src="img/dorothy.jpg" class="card-img">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card-entire" draggable="true">
-                        <a href="#">
-                            <div class="card-box">
-                                <div class="card-title">
-                                    <div class="card-title-text">Card 3</div>
-                                </div>
-                                <div class="card-description">
-                                    <div class="card-description-text">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                </div>
-                                <div class="card-img-div">
-                                    <img data-toggle="tooltip" title="Tin Man" src="img/tin.jpg" class="card-img">
-                                    <img data-toggle="tooltip" title="Dorothy" src="img/dorothy.jpg" class="card-img">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card-entire" draggable="true">
-                        <a href="#">
-                            <div class="card-box">
-                                <div class="card-title">
-                                    <div class="card-title-text">Card 4</div>
-                                </div>
-                                <div class="card-description">
-                                    <div class="card-description-text">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                </div>
-                                <div class="card-img-div">
-                                    <img data-toggle="tooltip" title="Tin Man" src="img/tin.jpg" class="card-img">
-                                    <img data-toggle="tooltip" title="Dorothy" src="img/dorothy.jpg" class="card-img">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-xs-12" style="background-color: green;">
-
-                        <div style="padding: 10px; display: inline-block;">
-                            <div style="height: 120px; width: 70px; position: relative; align-content: center;">
-                                <div style="height: 70px; width: 70px;">
-                                    <img src="img/dorothy.jpg" style="width: 100%; height: 100%; border-style: groove; border: 2px; border-radius: 50%; border-color: green;" />
-                                </div>
-                                <div style="height: 10px; color: white; width: 70px; position: absolute;">
-                                    <p>GK</p>
-                                </div>
-                                <br>
-                                <div style="height: 10px; color: white; width: 70px; position: absolute; word-break: break-all; overflow: hidden;">
-                                    <p>Patrick Killalea</p>
-                                </div>
-                                <br>
-                                <div style="height: 10px; color: white; width: 70px; position: absolute; border-style: groove; border: 2px;">
-                                    <a class="btn btn-small btn-info" href="#">
-                                        <i class="fa fa-exchange"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div style="padding: 10px; display: inline-block;">
-                            <div style="height: 120px; width: 70px; position: relative; align-content: center;">
-                                <div style="height: 70px; width: 70px;">
-                                    <img src="img/dorothy.jpg" style="width: 100%; height: 100%; border-style: groove; border: 2px; border-radius: 50%; border-color: green;" />
-                                </div>
-                                <div style="height: 10px; color: white; width: 70px; position: absolute;">
-                                    <p>GK</p>
-                                </div>
-                                <br>
-                                <div style="height: 10px; color: white; width: 70px; position: absolute; word-break: break-all; overflow: hidden;">
-                                    <p>Patrick Killalea</p>
-                                </div>
-                                <br>
-                                <div style="height: 10px; color: white; width: 70px; position: absolute; border-style: groove; border: 2px;">
-                                    <a class="btn btn-small btn-info" href="#">
-                                        <i class="fa fa-exchange"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div style="padding: 10px; display: inline-block;">
-                            <div style="height: 120px; width: 70px; position: relative; align-content: center;">
-                                <div style="height: 70px; width: 70px;">
-                                    <img src="img/dorothy.jpg" style="width: 100%; height: 100%; border-style: groove; border: 2px; border-radius: 50%; border-color: green;" />
-                                </div>
-                                <div style="height: 10px; color: white; width: 70px; position: absolute;">
-                                    <p>GK</p>
-                                </div>
-                                <br>
-                                <div style="height: 10px; color: white; width: 70px; position: absolute; word-break: break-all; overflow: hidden;">
-                                    <p>Patrick Killalea</p>
-                                </div>
-                                <br>
-                                <div style="height: 10px; color: white; width: 70px; position: absolute; border-style: groove; border: 2px;">
-                                    <a class="btn btn-small btn-info" href="#">
-                                        <i class="fa fa-exchange"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div style="padding: 10px;">
-                            <div style="height: 120px; width: 70px; position: relative; align-content: center;">
-                                <div style="height: 70px; width: 70px;">
-                                    <img src="img/dorothy.jpg" style="width: 100%; height: 100%; border-style: groove; border: 2px; border-radius: 50%; border-color: green;" />
-                                </div>
-                                <div style="height: 10px; color: white; width: 70px; position: absolute;">
-                                    <p>GK</p>
-                                </div>
-                                <br>
-                                <div style="height: 10px; color: white; width: 70px; position: absolute; word-break: break-all; overflow: hidden;">
-                                    <p>Patrick Killalea</p>
-                                </div>
-                                <br>
-                                <div style="height: 10px; color: white; width: 70px; position: absolute; border-style: groove; border: 2px;">
-                                    <a class="btn btn-small btn-info" href="#">
-                                        <i class="fa fa-exchange"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="footer-container">
-        <div class="container">
-            <div class="footer dax row">
-                <div class="col-sm-11 footer-mid">
-                    <div class="row">
-                        <nav class="col-sm-3 footer-block">
-                            <b>Documents &amp; downloads</b>
-                            <a href="#">IDI offline application form</a>
-                            <a href="#">Bank draft form</a>
-                        </nav>
-                        <div class="footer-separator visible-xs"></div>
-                        <nav class="col-sm-2 footer-block">
-                            <b>IDI help</b>
-                            <a href="#">FAQs</a>
-                            <a href="#">Live chat</a>
-                            <a href="#">Call back</a>
-                        </nav>
-                        <div class="footer-separator visible-xs"></div>
-                        <nav class="col-sm-3 footer-block">
-                            <b>Contact us</b>
-                            <a href="#">We're here to help</a>
-                            <a href="#">Find a Unum field office</a>
-                        </nav>
-                        <div class="footer-separator visible-xs"></div>
-                        <nav class="col-sm-3 footer-block">
-                            <b>About</b>
-                            <a href="#">Learn more about IDI</a>
-                            <a href="#">Finance calculators</a>
-                        </nav>
-                        <div class="footer-separator visible-xs"></div>
-                    </div>
-                </div>
-                <div class="col-sm-11 footer-bottom">
-                    <div class="copyright visible-xs">
-                        &copy; 2014 Unum Group. All rights reserved. Unum is a registered trademark and marketing brand of Unum Group and its insuring subsidiaries<br />
-                        NS-200 | Form: AE-1090
-                    </div>
-                    <nav>
-                        <ul class="hidden-xs">
-                            <li>NS-200</li>
-                            <li>Form: AE-1090</li>
-                            <li><a href="#">Trademark</a></li>
-                            <li><a href="#">Site map</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li class="ff-link"><a href="#">Legal</a></li>
-                        </ul>
-                        <ul class="visible-xs">
-                            <li><a href="#">Legal</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Site map</a></li>
-                            <li><a href="#">Trademark</a></li>
-                        </ul>
-                    </nav>
-                    <div class="pull-right copyright hidden-xs top-20">&copy; 2014 Unum Group. All rights reserved. Unum is a registered trademark and marketing brand of Unum Group and its insuring subsidiaries</div>
-                </div>
-            </div>
-            <!-- Hidden mobile navigation -->
-            <div id="mobileNavigation" class="mobile-menu visible-xs">
-                <nav>
-                    <ul>
-                        <li class="menu-close"><i class="fa fa-bars"></i></li>
-                        <li><a href="#">Learn</a></li>
-                        <li><a href="#">Apply</a></li>
-                        <li><a href="#">Help</a></li>
-                    </ul>
-                </nav>
-                <a class="m-menu-logout" href="#">Logout</a>
-            </div>
-        </div>
-    </footer>
-
-    <script src="js/lib/jquery-1.10.2.min.js"></script>
-    <script src="js/lib/jquery.placeholder.js"></script>
-    <script src="js/lib/bootstrap.min.js"></script>
-    <script src="js/lib/fastclick.js"></script>
-    <script src="js/lib/jquery.pubsub.js"></script>
-    <script src="js/lib/sxf3qhv.js"></script>
-    <script src="js/lib/bootstrap-datepicker.js"></script>
-    <script src="js/lib/jquery.formparams.min.js"></script>
-    <script src="js/lib/jquery.formatter.min.js"></script>
-    <script src="js/lib/jQuery.dPassword.js"></script>
-    <script src="js/lib/util.js"></script>
-    <script src="js/app.js"></script>
-</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
