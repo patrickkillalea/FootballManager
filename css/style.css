@@ -1,23 +1,90 @@
 
 body {
-    background-image: url("http://business.nasdaq.com/Images//TECH_Sub-Pillar_Trading_o_tcm5044-9928.jpg");
-	/*background-image: url("http://preview.turbosquid.com/Preview/2014/07/09__19_55_31/_HD_01.jpgc079d3f6-7e78-4581-bef8-c20b139cb986Original.jpg");*/
+    /*background-image: url("http://business.nasdaq.com/Images//TECH_Sub-Pillar_Trading_o_tcm5044-9928.jpg");*/
+    background-image: url("http://preview.turbosquid.com/Preview/2014/07/09__19_55_31/_HD_01.jpgc079d3f6-7e78-4581-bef8-c20b139cb986Original.jpg");
 }
 
-.side-nav{
-	background-color: darkblue;
-	min-height: 900px;
+.side-nav {
+    background-color: darkblue;
+    min-height: 900px;
 }
 
-.team-nav{
-	background-color: dimgrey;
-	opacity: 0.8;
-	height: 600px;
+.team-nav {
+    background-color: rgba(122, 122, 122, .8);
+    height: 900px;
 }
 
-.pitch{
-	background-color: green;
-	opacity: 0.8;
-	height: 800px;
+.pitch {
+    background-color: rgba(16, 150, 60, .8);
+    height: 900px;
 }
 
+.navbar-default {
+    background-color: darkblue;
+    border-color: dodgerblue;
+    color: white;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.field-player-entire {
+    padding: 10px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.field-player-container {
+    height: 120px;
+    width: 100px;
+    position: relative;
+    align-content: center;
+}
+
+.field-player-image-container {
+    height: 70px;
+    width: 70px;
+}
+
+.field-player-image {
+    width: 100%;
+    height: 100%;
+    border-style: groove;
+    border: 2px;
+    border-radius: 50%;
+}
+
+.field-player-position {
+    height: 10px;
+    color: white;
+    width: 100px;
+    position: absolute;
+}
+
+.field-player-name {
+    height: 20px;
+    color: white;
+    width: 100px;
+    position: absolute;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.field-player-switch {
+    height: 10px;
+    color: white;
+    width: 100px;
+    position: absolute;
+    border-style: groove;
+    border: 2px;
+}
