@@ -1,0 +1,23 @@
+
+body {
+    background-image: url("http://business.nasdaq.com/Images//TECH_Sub-Pillar_Trading_o_tcm5044-9928.jpg");
+	/*background-image: url("http://preview.turbosquid.com/Preview/2014/07/09__19_55_31/_HD_01.jpgc079d3f6-7e78-4581-bef8-c20b139cb986Original.jpg");*/
+}
+
+.side-nav{
+	background-color: darkblue;
+	min-height: 900px;
+}
+
+.team-nav{
+	background-color: dimgrey;
+	opacity: 0.8;
+	height: 600px;
+}
+
+.pitch{
+	background-color: green;
+	opacity: 0.8;
+	height: 800px;
+}
+
