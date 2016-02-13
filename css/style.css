@@ -19,6 +19,7 @@ body {
     height: auto;
     border: white;
     border-style: groove;
+    padding: 10px;
 }
 
 .navbar-default {
@@ -91,8 +92,6 @@ body {
     border-style: groove;
     border: 2px;
 }
-
-
 
 .nav-side-menu {
     overflow: auto;
@@ -261,7 +260,12 @@ body {
 }
 
 .squad-player-div{
-    height:55px; width:100%; border:2px; border-style:solid; position: relative; font-size: 10px;
+    height:55px; width:100%; border:1px; border-style:solid; position: relative; font-size: 10px;
+}
+
+.squad-player-switch{
+    padding-right: 10px;
+    top: 50%;transform: translateY(-50%);
 }
 
 .player-v-align{
