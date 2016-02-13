@@ -1,12 +1,12 @@
 
 body {
-    /*background-image: url("http://business.nasdaq.com/Images//TECH_Sub-Pillar_Trading_o_tcm5044-9928.jpg");*/
-    background-image: url("http://preview.turbosquid.com/Preview/2014/07/09__19_55_31/_HD_01.jpgc079d3f6-7e78-4581-bef8-c20b139cb986Original.jpg");
+    background-image: url("http://1.bp.blogspot.com/_ysg7dkWwdyY/S9VLuOPdmBI/AAAAAAAAAG0/ipP3HdLKNmI/s1600/IMG_6062.JPG");
+    /*background-image: url("http://preview.turbosquid.com/Preview/2014/07/09__19_55_31/_HD_01.jpgc079d3f6-7e78-4581-bef8-c20b139cb986Original.jpg");*/
 }
 
 .side-nav {
     background-color: #23282e;
-    min-height: 900px;
+    min-height: auto;
 }
 
 .team-nav {
@@ -16,12 +16,14 @@ body {
 
 .pitch {
     background-color: rgba(16, 150, 60, .8);
-    height: 900px;
+    height: auto;
+    border: white;
+    border-style: groove;
 }
 
 .navbar-default {
     background-color: #23282e;
-    border-color: darkblue;
+    border-color: #5E88A1;
     color: white;
 }
 
@@ -31,7 +33,7 @@ body {
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: white;
-    background-color: darkblue;
+    background-color: #5E88A1;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -39,21 +41,20 @@ body {
 }
 
 .field-player-entire {
-    padding: 10px;
+    padding: 15px;
     display: inline-block;
-    padding-bottom: 20px;
 }
 
 .field-player-container {
-    height: 120px;
+    height: auto;
     width: 100px;
     position: relative;
     align-content: center;
 }
 
 .field-player-image-container {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
 }
 
 .field-player-image {
@@ -69,6 +70,7 @@ body {
     color: white;
     width: 100px;
     position: absolute;
+    font-size: 10px;
 }
 
 .field-player-name {
@@ -78,6 +80,7 @@ body {
     position: absolute;
     word-break: break-all;
     overflow: hidden;
+    font-size: 12px;
 }
 
 .field-player-switch {
@@ -258,11 +261,9 @@ body {
 }
 
 .squad-player-div{
-    height:65px; width:100%; border:2px; border-style:solid; position: relative;
+    height:55px; width:100%; border:2px; border-style:solid; position: relative; font-size: 10px;
 }
 
 .player-v-align{
-    color:white;
-    top: 50%;
-    transform: translateY(-50%);
+    color:white;top: 50%;transform: translateY(-50%);
 }
