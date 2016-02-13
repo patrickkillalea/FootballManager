@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bootstrap 3, from LayoutIt!</title>
+    <title>Football Manager</title>
 
     <meta name="description" content="Source code generated using layoutit.com">
     <meta name="author" content="LayoutIt!">
@@ -13,6 +14,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
 
     <div class="container-fluid">
@@ -24,7 +26,7 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Brand</a>
+                        <a class="navbar-brand" href="#">GAA Manager</a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -96,10 +98,211 @@
         </div>
         <div class="row">
             <div class="col-md-2">
-                <div class="side-nav"></div>
+
+                <!-- Start of Left Nav -->
+
+                <div class="side-nav">
+                    <div class="nav-side-menu">
+                        <div class="brand">Dublin</div>
+                        <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+
+                        <div class="menu-list">
+                            <ul id="menu-content" class="menu-content collapse out">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-users fa-lg"></i>Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-users fa-lg"></i>Squad
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-users fa-lg"></i>Teamsheet
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-users fa-lg"></i>Fixtures
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-users fa-lg"></i>Competitions
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- End of left nav -->
+
+                </div>
             </div>
             <div class="col-md-4">
-                <div class="team-nav"></div>
+                <div class="team-nav">
+
+
+                    <!-- Start of Team Nav -->
+                    <div class="squad-header" align="center">Squad</div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/1.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> Stephen Cluxton </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> GK </div>
+                    </div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/2.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> Michael Fitzsimons </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> LB / LWB </div>
+                    </div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/3.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> Philly McMahon </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> CB / LB </div>
+                    </div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/4.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> David Byrne </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> RWB / RB </div>
+                    </div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/5.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> Darren Daly </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> LB / LWB </div>
+                    </div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/6.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> Eric Lowndes </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> CHB / MID </div>
+                    </div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/7.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> Jack McCaffrey </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> CHB / RWB</div>
+                    </div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/8.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> Denis Bastick </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> LWF / MID / LWB </div>
+                    </div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/9.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> Michael Macauley </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> MID </div>
+                    </div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/10.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> Cormac Costello </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> LWF / FF </div>
+                    </div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/11.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> Dean Rock </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> CHF </div>
+                    </div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/12.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> Kevin McManamon </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> RWF / LWF </div>
+                    </div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/13.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> Eoghan O'Gara </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> LF / FF </div>
+                    </div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/14.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> Paddy Andrews </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);">FF </div>
+                    </div>
+
+                    <div class="squad-player-div">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div align="left" class="field-player-image-container">
+                                <img src="img/15.png" class="field-player-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> Davey Byrne </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="color:white;top: 50%;transform: translateY(-50%);"> RF / LF </div>
+                    </div>
+
+                    <!-- End of Team Nav -->
+
+
+                </div>
             </div>
             <div class="col-md-6">
                 <div class="pitch" align="center">
@@ -107,164 +310,180 @@
 
                     <!--Full Forwards-->
                     <div class="row">
-                        <div class="field-player-entire" draggable="true">
-                            <div class="field-player-container">
-                                <div class="field-player-image-container">
-                                    <img src="img/dorothy.jpg" class="field-player-image" />
-                                </div>
-                                <div class="field-player-position">
-                                    <i>RF 15</i>
-                                </div>
-                                <br>
-                                <div class="field-player-name">
-                                    <p>Patrick Killalea</p>
-                                </div>
-                                <br>
-                                <div class="field-player-switch">
-                                    <a href="#">
-                                        <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="field-player-entire" draggable="true">
-                            <div class="field-player-container">
-                                <div class="field-player-image-container">
-                                    <img src="img/dorothy.jpg" class="field-player-image" />
-                                </div>
-                                <div class="field-player-position">
-                                    <i>FF 14</i>
-                                </div>
-                                <br>
-                                <div class="field-player-name">
-                                    <p>Patrick Killalea</p>
-                                </div>
-                                <br>
-                                <div class="field-player-switch">
-                                    <a href="#">
-                                        <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class="field-player-entire" draggable="true">
                             <div class="field-player-container">
                                 <div class="field-player-image-container">
-                                    <img src="img/dorothy.jpg" class="field-player-image" />
+                                    <img src="img/13.png" class="field-player-image" />
                                 </div>
                                 <div class="field-player-position">
                                     <i>LF 13</i>
                                 </div>
                                 <br>
                                 <div class="field-player-name">
-                                    <p>Patrick Killalea</p>
+                                    <p>Eoghan O'Gara</p>
                                 </div>
                                 <br>
                                 <div class="field-player-switch">
                                     <a href="#">
-                                        <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
+                                        <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                    </a>
                                 </div>
                             </div>
                         </div>
 
 
+                        <div class="field-player-entire" draggable="true">
+                            <div class="field-player-container">
+                                <div class="field-player-image-container">
+                                    <img src="img/14.png" class="field-player-image" />
+                                </div>
+                                <div class="field-player-position">
+                                    <i>FF 14</i>
+                                </div>
+                                <br>
+                                <div class="field-player-name">
+                                    <p>Paddy Andrews</p>
+                                </div>
+                                <br>
+                                <div class="field-player-switch">
+                                    <a href="#">
+                                        <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="field-player-entire" draggable="true">
+                            <div class="field-player-container">
+                                <div class="field-player-image-container">
+                                    <img src="img/15.png" class="field-player-image" />
+                                </div>
+                                <div class="field-player-position">
+                                    <i>RF 15</i>
+                                </div>
+                                <br>
+                                <div class="field-player-name">
+                                    <p>Davey Byrne</p>
+                                </div>
+                                <br>
+                                <div class="field-player-switch">
+                                    <a href="#">
+                                        <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
                         <!--Half Forwards-->
                         <div class="row">
-                            <div class="field-player-entire" draggable="true">
-                                <div class="field-player-container">
-                                    <div class="field-player-image-container">
-                                        <img src="img/dorothy.jpg" class="field-player-image" />
-                                    </div>
-                                    <div class="field-player-position">
-                                        <i>RWF 12</i>
-                                    </div>
-                                    <br>
-                                    <div class="field-player-name">
-                                        <p>Patrick Killalea</p>
-                                    </div>
-                                    <br>
-                                    <div class="field-player-switch">
-                                        <a href="#">
-                                            <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="field-player-entire" draggable="true">
-                                <div class="field-player-container">
-                                    <div class="field-player-image-container">
-                                        <img src="img/dorothy.jpg" class="field-player-image" />
-                                    </div>
-                                    <div class="field-player-position">
-                                        <i>CHF 11</i>
-                                    </div>
-                                    <br>
-                                    <div class="field-player-name">
-                                        <p>Patrick Killalea</p>
-                                    </div>
-                                    <br>
-                                    <div class="field-player-switch">
-                                        <a href="#">
-                                            <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
-                                    </div>
-                                </div>
-                            </div>
 
                             <div class="field-player-entire" draggable="true">
                                 <div class="field-player-container">
                                     <div class="field-player-image-container">
-                                        <img src="img/dorothy.jpg" class="field-player-image" />
+                                        <img src="img/10.png" class="field-player-image" />
                                     </div>
                                     <div class="field-player-position">
                                         <i>LWF 10</i>
                                     </div>
                                     <br>
                                     <div class="field-player-name">
-                                        <p>Patrick Killalea</p>
+                                        <p>Cormac Costello</p>
                                     </div>
                                     <br>
                                     <div class="field-player-switch">
                                         <a href="#">
-                                            <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
+                                            <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="field-player-entire" draggable="true">
+                                <div class="field-player-container">
+                                    <div class="field-player-image-container">
+                                        <img src="img/11.png" class="field-player-image" />
+                                    </div>
+                                    <div class="field-player-position">
+                                        <i>CHF 11</i>
+                                    </div>
+                                    <br>
+                                    <div class="field-player-name">
+                                        <p>Dean Rock</p>
+                                    </div>
+                                    <br>
+                                    <div class="field-player-switch">
+                                        <a href="#">
+                                            <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="field-player-entire" draggable="true">
+                                <div class="field-player-container">
+                                    <div class="field-player-image-container">
+                                        <img src="img/12.png" class="field-player-image" />
+                                    </div>
+                                    <div class="field-player-position">
+                                        <i>RWF 12</i>
+                                    </div>
+                                    <br>
+                                    <div class="field-player-name">
+                                        <p>Kevin McManamon</p>
+                                    </div>
+                                    <br>
+                                    <div class="field-player-switch">
+                                        <a href="#">
+                                            <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
 
                             <!--Mid Field-->
                             <div class="row">
+
                                 <div class="field-player-entire" draggable="true">
                                     <div class="field-player-container">
                                         <div class="field-player-image-container">
-                                            <img src="img/dorothy.jpg" class="field-player-image" />
-                                        </div>
-                                        <div class="field-player-position">
-                                            <i>MID 9</i>
-                                        </div>
-                                        <br>
-                                        <div class="field-player-name">
-                                            <p>Patrick Killalea</p>
-                                        </div>
-                                        <br>
-                                        <div class="field-player-switch">
-                                            <a href="#">
-                                                <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="field-player-entire" draggable="true">
-                                    <div class="field-player-container">
-                                        <div class="field-player-image-container">
-                                            <img src="img/dorothy.jpg" class="field-player-image" />
+                                            <img src="img/8.png" class="field-player-image" />
                                         </div>
                                         <div class="field-player-position">
                                             <i>MID 8</i>
                                         </div>
                                         <br>
                                         <div class="field-player-name">
-                                            <p>Patrick Killalea</p>
+                                            <p>Denis Bastick</p>
                                         </div>
                                         <br>
                                         <div class="field-player-switch">
                                             <a href="#">
-                                                <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
+                                                <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="field-player-entire" draggable="true">
+                                    <div class="field-player-container">
+                                        <div class="field-player-image-container">
+                                            <img src="img/9.png" class="field-player-image" />
+                                        </div>
+                                        <div class="field-player-position">
+                                            <i>MID 9</i>
+                                        </div>
+                                        <br>
+                                        <div class="field-player-name">
+                                            <p>Michael Macauley</p>
+                                        </div>
+                                        <br>
+                                        <div class="field-player-switch">
+                                            <a href="#">
+                                                <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -272,145 +491,160 @@
 
                                 <!--Half Backs-->
                                 <div class="row">
-                                    <div class="field-player-entire" draggable="true">
-                                        <div class="field-player-container">
-                                            <div class="field-player-image-container">
-                                                <img src="img/dorothy.jpg" class="field-player-image" />
-                                            </div>
-                                            <div class="field-player-position">
-                                                <i>RWB 7</i>
-                                            </div>
-                                            <br>
-                                            <div class="field-player-name">
-                                                <p>Patrick Killalea</p>
-                                            </div>
-                                            <br>
-                                            <div class="field-player-switch">
-                                                <a href="#">
-                                                    <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="field-player-entire" draggable="true">
-                                        <div class="field-player-container">
-                                            <div class="field-player-image-container">
-                                                <img src="img/dorothy.jpg" class="field-player-image" />
-                                            </div>
-                                            <div class="field-player-position">
-                                                <i>CHB 6</i>
-                                            </div>
-                                            <br>
-                                            <div class="field-player-name">
-                                                <p>Patrick Killalea</p>
-                                            </div>
-                                            <br>
-                                            <div class="field-player-switch">
-                                                <a href="#">
-                                                    <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
-                                            </div>
-                                        </div>
-                                    </div>
 
                                     <div class="field-player-entire" draggable="true">
                                         <div class="field-player-container">
                                             <div class="field-player-image-container">
-                                                <img src="img/dorothy.jpg" class="field-player-image" />
+                                                <img src="img/5.png" class="field-player-image" />
                                             </div>
                                             <div class="field-player-position">
                                                 <i>LWB 5</i>
                                             </div>
                                             <br>
                                             <div class="field-player-name">
-                                                <p>Patrick Killalea</p>
+                                                <p>Darren Daly</p>
                                             </div>
                                             <br>
                                             <div class="field-player-switch">
                                                 <a href="#">
-                                                    <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
+                                                    <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
 
 
+
+                                    <div class="field-player-entire" draggable="true">
+                                        <div class="field-player-container">
+                                            <div class="field-player-image-container">
+                                                <img src="img/6.png" class="field-player-image" />
+                                            </div>
+                                            <div class="field-player-position">
+                                                <i>CHB 6</i>
+                                            </div>
+                                            <br>
+                                            <div class="field-player-name">
+                                                <p>Eric Lowndes</p>
+                                            </div>
+                                            <br>
+                                            <div class="field-player-switch">
+                                                <a href="#">
+                                                    <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="field-player-entire" draggable="true">
+                                        <div class="field-player-container">
+                                            <div class="field-player-image-container">
+                                                <img src="img/7.png" class="field-player-image" />
+                                            </div>
+                                            <div class="field-player-position">
+                                                <i>RWB 7</i>
+                                            </div>
+                                            <br>
+                                            <div class="field-player-name">
+                                                <p>Jack McCaffrey</p>
+                                            </div>
+                                            <br>
+                                            <div class="field-player-switch">
+                                                <a href="#">
+                                                    <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <!--Full Backs-->
                                     <div class="row">
-                                        <div class="field-player-entire" draggable="true">
-                                            <div class="field-player-container">
-                                                <div class="field-player-image-container">
-                                                    <img src="img/dorothy.jpg" class="field-player-image" />
-                                                </div>
-                                                <div class="field-player-position">
-                                                    <i>RB 4</i>
-                                                </div>
-                                                <br>
-                                                <div class="field-player-name">
-                                                    <p>Patrick Killalea</p>
-                                                </div>
-                                                <br>
-                                                <div class="field-player-switch">
-                                                    <a href="#">
-                                                        <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="field-player-entire" draggable="true">
-                                            <div class="field-player-container">
-                                                <div class="field-player-image-container">
-                                                    <img src="img/dorothy.jpg" class="field-player-image" />
-                                                </div>
-                                                <div class="field-player-position">
-                                                    <i>FB 3</i>
-                                                </div>
-                                                <br>
-                                                <div class="field-player-name">
-                                                    <p>Patrick Killalea</p>
-                                                </div>
-                                                <br>
-                                                <div class="field-player-switch">
-                                                    <a href="#">
-                                                        <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
-                                                </div>
-                                            </div>
-                                        </div>
 
                                         <div class="field-player-entire" draggable="true">
                                             <div class="field-player-container">
                                                 <div class="field-player-image-container">
-                                                    <img src="img/dorothy.jpg" class="field-player-image" />
+                                                    <img src="img/2.png" class="field-player-image" />
                                                 </div>
                                                 <div class="field-player-position">
                                                     <i>LB 2</i>
                                                 </div>
                                                 <br>
                                                 <div class="field-player-name">
-                                                    <p>Patrick Killalea</p>
+                                                    <p>Michael Fitzsimons</p>
                                                 </div>
                                                 <br>
                                                 <div class="field-player-switch">
                                                     <a href="#">
-                                                        <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
+                                                        <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
+
+
+
+
+                                        <div class="field-player-entire" draggable="true">
+                                            <div class="field-player-container">
+                                                <div class="field-player-image-container">
+                                                    <img src="img/3.png" class="field-player-image" />
+                                                </div>
+                                                <div class="field-player-position">
+                                                    <i>FB 3</i>
+                                                </div>
+                                                <br>
+                                                <div class="field-player-name">
+                                                    <p>Philly McMahon</p>
+                                                </div>
+                                                <br>
+                                                <div class="field-player-switch">
+                                                    <a href="#">
+                                                        <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="field-player-entire" draggable="true">
+                                            <div class="field-player-container">
+                                                <div class="field-player-image-container">
+                                                    <img src="img/4.png" class="field-player-image" />
+                                                </div>
+                                                <div class="field-player-position">
+                                                    <i>RB 4</i>
+                                                </div>
+                                                <br>
+                                                <div class="field-player-name">
+                                                    <p>David Byrne</p>
+                                                </div>
+                                                <br>
+                                                <div class="field-player-switch">
+                                                    <a href="#">
+                                                        <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
 
                                         <!--Goal Keeper-->
                                         <div class="row">
                                             <div class="field-player-entire" draggable="true">
                                                 <div class="field-player-container">
                                                     <div class="field-player-image-container">
-                                                        <img src="img/dorothy.jpg" class="field-player-image" />
+                                                        <img src="img/1.png" class="field-player-image" />
                                                     </div>
                                                     <div class="field-player-position">
                                                         <i>GK 1</i>
                                                     </div>
                                                     <br>
                                                     <div class="field-player-name">
-                                                        <p>Patrick Killalea</p>
+                                                        <p>Stephen Cluxton</p>
                                                     </div>
                                                     <br>
                                                     <div class="field-player-switch">
                                                         <a href="#">
-                                                            <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16"></a>
+                                                            <img src="http://cdn.ismfg.net/static/plfpl/img/icons/sub.png" height="16" width="16">
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -424,4 +658,5 @@
                         <script src="js/bootstrap.min.js"></script>
                         <script src="js/scripts.js"></script>
 </body>
+
 </html>
