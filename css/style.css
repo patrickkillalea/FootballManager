@@ -1,7 +1,10 @@
 
 body {
-    background-image: url("http://1.bp.blogspot.com/_ysg7dkWwdyY/S9VLuOPdmBI/AAAAAAAAAG0/ipP3HdLKNmI/s1600/IMG_6062.JPG");
-    /*background-image: url("http://preview.turbosquid.com/Preview/2014/07/09__19_55_31/_HD_01.jpgc079d3f6-7e78-4581-bef8-c20b139cb986Original.jpg");*/
+    background-image: url("http://1.bp.blogspot.com/_ysg7dkWwdyY/S9VLuOPdmBI/AAAAAAAAAG0/ipP3HdLKNmI/s1600/IMG_6062.JPG"); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .side-nav {
@@ -46,6 +49,21 @@ body {
     display: inline-block;
 }
 
+@media (min-width: 1400px) {
+.field-player-entire {
+    padding: 40px;
+    display: inline-block;
+}
+}
+
+@media (max-width: 500px) {
+.field-player-entire {
+    padding: 10px;
+    display: inline-block;
+}
+}
+
+
 .field-player-container {
     height: auto;
     width: 100px;
@@ -57,6 +75,21 @@ body {
     height: 50px;
     width: 50px;
 }
+
+@media (min-width: 1400px) {
+    .field-player-image-container {
+    height: 80px;
+    width: 80px;
+    }
+}
+
+@media (max-width: 500px) {
+    .field-player-image-container {
+    height: 40px;
+    width: 40px;
+    }
+}
+
 
 .field-player-image {
     width: 100%;
@@ -74,6 +107,7 @@ body {
     font-size: 10px;
 }
 
+
 .field-player-name {
     height: 20px;
     color: white;
@@ -84,6 +118,7 @@ body {
     font-size: 12px;
 }
 
+
 .field-player-switch {
     height: 10px;
     color: white;
@@ -92,6 +127,7 @@ body {
     border-style: groove;
     border: 2px;
 }
+
 
 .nav-side-menu {
     overflow: auto;
@@ -266,6 +302,20 @@ body {
 .squad-player-switch{
     padding-right: 10px;
     top: 50%;transform: translateY(-50%);
+}
+
+
+.squad-player-image-container {
+    height: 50px;
+    width: 50px;
+}
+
+.squad-player-image {
+    width: 100%;
+    height: 100%;
+    border-style: groove;
+    border: 2px;
+    border-radius: 50%;
 }
 
 .player-v-align{
